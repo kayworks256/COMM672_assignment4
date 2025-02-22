@@ -1,0 +1,113 @@
+body {
+    width: 960px;
+    max-width: 100%;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+}
+img {
+    width: 100%;
+}
+h2 {
+    color: #B3679B;
+    background-color: #EFEFEF;
+    border: 1px solid  #222E50;
+    border-radius: 10px;
+    padding: 5px 15px;
+  }
+td {
+    padding: 20px;
+}
+tr:nth-child(odd) td:first-child {
+    width: 100px;
+    background-color: #f2f2f2;
+}
+ul:first-child {
+    padding-left: 0;
+}
+ul:first-child li {
+    list-style:none;
+}
+a {
+    color: #B3679B;
+}
+a:active {
+    color:#222E50;
+}
+.index nav li:first-child a {
+    color: #222E50;
+}
+.about nav li:nth-child(2) a {
+    color: #222E50;
+}
+.features nav li:nth-child(3) a {
+    color: #222E50;
+}
+.features nav li:nth-child(3) li a {
+    color: #B3679B;
+}
+.community nav li:nth-child(4) a {
+    color: #222E50;
+}
+.contact nav li:nth-child(5) a {
+    color: #222E50;
+}
+main p {
+    width: 33%;
+    border: 1px solid  #222E50;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+}
+.featuresContents {
+    font-weight: bold;
+}
+.feature-container{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 20px;
+}
+.feature-container p:first-of-type {
+    font-size: 20px;
+    text-align: center;
+}
+.feature-container p:nth-of-type(2) {
+    text-align: center;
+}
+.feature-container p:last-of-type {
+    text-align: right;
+}
+.feature-container img {
+    width: 300px;
+    border-radius: 20px;
+}
+.community div {
+    border: 1px solid #222E50;
+    border-radius: 20px;
+    width: 300px;
+    margin: 10px 15px;
+    padding: 10px;
+    text-align: center;
+}
+.community div:first-of-type h3 {
+    border-top: 10px solid #7CA982;
+    padding-top: 15px;
+}
+.community div:nth-of-type(2) h3 {
+    border-top: 10px solid #E6A563;
+    padding-top: 15px;
+}
+.community div:nth-of-type(3) h3 {
+    border-top: 10px solid #B36793;
+    padding: 15px 0px;
+}
+.community div p:first-of-type {
+    font-weight: bold;
+    line-height: 0.5em;
+    padding-top: 15px;
+}
+.community div p:nth-of-type(2) {
+    font-style: italic;
+}
