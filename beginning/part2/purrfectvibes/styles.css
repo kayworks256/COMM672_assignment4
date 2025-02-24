@@ -9,13 +9,15 @@ body {
 img {
     width: 100%;
 }
+/* headings */
 h2 {
     color: #B3679B;
     background-color: #EFEFEF;
     border: 1px solid  #222E50;
     border-radius: 10px;
     padding: 5px 15px;
-  }
+}
+/* table setting on about us page */
 td {
     padding: 20px;
 }
@@ -23,16 +25,21 @@ tr:nth-child(odd) td:first-child {
     width: 100px;
     background-color: #f2f2f2;
 }
+/* hyperlinks setting */
+a {
+    color: #B3679B;
+}
+/* navigation setting */
 ul:first-child {
     padding-left: 0;
 }
 ul:first-child li {
     list-style:none;
 }
-a {
-    color: #B3679B;
+ul:first-child a:active {
+    color:#222E50;
 }
-a:active {
+.features ul:nth-child(2) a:active {
     color:#222E50;
 }
 .index nav li:first-child a {
@@ -53,6 +60,7 @@ a:active {
 .contact nav li:nth-child(5) a {
     color: #222E50;
 }
+/* features on index.html */
 main p {
     width: 33%;
     border: 1px solid  #222E50;
@@ -63,6 +71,7 @@ main p {
 .featuresContents {
     font-weight: bold;
 }
+/* features on features.html */
 .feature-container{
     background-color: #f2f2f2;
     border-radius: 20px;
@@ -83,6 +92,7 @@ main p {
     width: 300px;
     border-radius: 20px;
 }
+/* community page */
 .community div {
     border: 1px solid #222E50;
     border-radius: 20px;

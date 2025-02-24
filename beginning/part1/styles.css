@@ -4,21 +4,26 @@ body {
     line-height: 2em;
     background-color: #ededed;
 }
+/* heading setting */
 h1, h2 {
     color: blue;
     border-bottom:solid 1px #929CA4;
 }
+/* 30px setting for the first letter of the first paragraph */
 p:first-of-type::first-letter {
     font-size:30px;
 }
-.solution {
+/* features */
+.features {
     color: #CC1C0D;
     font-weight: bold;
 }
+/* testimonials */
 #testimonial1, #testimonial2 {
     font-style: italic;
     margin-left: 50px;
 }
+/* link to mittens.com */
 a:link {
     color:teal;
     text-decoration: underline dotted gray;
@@ -27,6 +32,7 @@ a:hover {
     color: orange;
     text-decoration: underline overline gray;
 }
+/* list setting */
 li {
     list-style:none;
 }
